@@ -1,12 +1,10 @@
-import React from 'react'
-
+import react from 'react'
 
 const LogoSearch = () => {
     return (
-        <div className = "LogoSearch">
-            <LogoSearch/>
-        </div>
+        <div>LogoSearch</div>
     )
+
 }
 
 export default LogoSearch
