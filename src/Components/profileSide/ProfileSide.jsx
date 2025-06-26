@@ -1,10 +1,11 @@
 import React from 'react'
 import LogoSearch from '../LogoSearch/LogoSearch'
-
+import ProfileCard from '../ProfileCard/ProfileCard'
 const ProfileSide = () => {
     return (
         <div class = "ProfileSide">
             <LogoSearch/>
+            <ProfileCard/>
         </div>
     )
 }
