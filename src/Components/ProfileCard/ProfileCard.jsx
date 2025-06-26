@@ -1,7 +1,6 @@
 import React from 'react'
 import Cover from '../../img/cover.jpg'
 import Profile from '../../img/profileImg.jpg'
-import './ProfileCard.css'
 const ProfileCard = () => {
     return (
         <div class = 'ProfileCard'>
@@ -15,16 +14,18 @@ const ProfileCard = () => {
                 <span>Senior UI/UX Designer</span>
             </div>
 
-            <div class = "folowStatus">
+            <div class = "followStatus">
                 <hr />
-                <div class = "follow">
-                    <span>6,890</span>
-                    <span>Followings</span>
-                </div>
-                <div class ="vl"></div>
-                <div class ="follow">
-                    <span>1</span>
-                    <span>Followers</span>
+                <div>
+                    <div class = "follow">
+                        <span>6,890</span>
+                        <span>Followings</span>
+                    </div>
+                    <div class ="vl"></div>
+                    <div class ="follow">
+                        <span>1</span>
+                        <span>Followers</span>
+                    </div>
                 </div>
             </div>
             <hr/>
