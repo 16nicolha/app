@@ -3,7 +3,7 @@ import Cover from '../../img/cover.jpg'
 import Profile from '../../img/profileImg.jpg'
 const ProfileCard = () => {
     return (
-        <div class = 'ProfileCard'>
+        <div class = "ProfileCard">
             <div class ="ProfileImages">
                 <img src={Cover} alt = ""></img>
                 <img src={Profile} alt = ""></img>
@@ -27,8 +27,8 @@ const ProfileCard = () => {
                         <span>Followers</span>
                     </div>
                 </div>
+                <hr/>
             </div>
-            <hr/>
         </div>
     )
 
